@@ -1,9 +1,9 @@
-defmodule MixExample.MixProject do
+defmodule Example.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :mix_example,
+      app: :example,
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
@@ -14,7 +14,7 @@ defmodule MixExample.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      mod: {MixExample, []},
+      mod: {Example, []},
       extra_applications: [:logger]
     ]
   end

@@ -1,8 +1,8 @@
-{application,mix_example,
+{application,example,
              [{optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,uuid]},
-              {description,"mix_example"},
-              {modules,['Elixir.MixExample']},
+              {description,"example"},
+              {modules,['Elixir.Example']},
               {registered,[]},
               {vsn,"0.1.0"},
-              {mod,{'Elixir.MixExample',[]}}]}.
+              {mod,{'Elixir.Example',[]}}]}.
